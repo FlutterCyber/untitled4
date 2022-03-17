@@ -59,7 +59,7 @@ class _HomePageState extends State<HomePage> {
         elevation: 10,
         child: const Icon(Icons.add),
         onPressed: (){
-          //
+          Navigator.pushReplacementNamed(context, SecondPage.id);
         },
       ),
 
